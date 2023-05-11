@@ -91,6 +91,10 @@ document.addEventListener('keydown', () => {
   y -= 20;
 });
 
+document.addEventListener('touchend', () => {
+  y -= 20;
+});
+
 button.addEventListener('click', () => {
     location.reload();
 })
